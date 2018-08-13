@@ -6,8 +6,9 @@
 """Connection et récupération de données via l'API de ETORO premier test"""
 import http.client, urllib.request, urllib.parse, urllib.error, base64
 
-#headers = {
-    # Request headers
+def recuperationDesDonnees():
+	headers = {
+    Request headers
  #   'Ocp-Apim-Subscription-Key': '{subscription key}',
 #}
 

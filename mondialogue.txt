@@ -1,0 +1,10 @@
+#MOI: S'il te plaît python, je veux que tu m'aides à faire du trading.
+#Python: mais comment veux tu que je t'aides à faire du trading? moi aussi je ne sais même pas trader. Explique moi comment je vais faire
+#Moi: Je vais t'apprendre à le faire. D'abord il faut qu'on récupère les données de trading.
+#Python : ok c'est compris! Mais comment allons nous y prendre pour faire cela, et qui va nous fournir les statistique de trading comme tu dis
+#Moi : Je vais trouver les quotations en temps réelle gratuit
+#Moi : après avoir trouver le fournisseur, les api restful ont un modèle de fonctionnement. 
+1- il faut s'authentifier et obtenir un token
+2- Il faut encoder l'url avec le token (il y a toujours une partie de l'url qui est toujours la même chose) en base64
+3- il faut définir l'entête de la requête HTTP à envoyer afin d'obtenir la réponse du Serveur$*
+4- la réponse que je veux dans mon programme doit être en JSON
